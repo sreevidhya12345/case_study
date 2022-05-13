@@ -103,7 +103,7 @@ var count=0;
 function checkcounter(){
     let promise =new Promise(function(resolve,reject){
         if (count==5) {
-            resolve("congrats successfully completed 5 tasks.");
+            resolve("Congrats. 5 Tasks have been Successfully Completed.");
             }
     })
     promise.then(function(s){
